@@ -1,0 +1,33 @@
+:root {
+    --actived: #c84448;
+    --deactived: #ddd9dA;
+    --ligth: #fff;
+    --font-ligth:#918d8e;
+    --font-dark: #352e90;
+}
+body {
+    background-color: var(--deactived);
+}
+.container {
+    background-color: var(--ligth);
+    width: 100%;
+    overflow:hidden;
+}
+
+button {
+    background-color: var(--actived) !important;
+    border-color: var(--deactived) !important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    color: --var(--font-dark);
+}
